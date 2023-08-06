@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="logo">
+        <p id="logotxt"><img src="logoD.png" alt="logoicon" id="logoicon">AHVINE</p>
+      </div>
+      <p id="imgcredit">Photo by <a class="imgcredit" href="#"> Halie West</a> on <a class="imgcredit" href="#"> Unsplash</a> </p>
+      <div id="mainform">
+        <p id="description">This is not a real online service! 
+        You know you need something like this
+        in your life to help you realise your deepest dreams. <br>
+        Sign up<i> now </i>to get started.</p>
+
+       <p>You<i> know </i>u want to.</p>
+       <form action="#" class="signupform">
+          <div class="div1">
+            <label for="firstname">FIRST NAME</label>
+            <input name="firstname" type="text">
+            <label for="email">EMAIL</label>
+            <input name="email" type="email">
+            <label for="password">PASSWORD</label>
+            <input name="password" id="input1" class="pswdinput" type="password">
+            <p id="pswrd_checker"></p>
+          </div>
+          <div class="div2">
+            <label for="lastname">LAST NAME</label>
+            <input name="lastname" type="text">
+            <label for="number">PHONE NUMBER</label>
+            <input name="number" type="text">
+            <label for="confirm_pswrd">CONFIRM PASSWORD</label>
+            <input name="confirm_pswrd" id="input2" class="pswdinput" type="password">
+          </div>
+       </form>
+       <button type="submit">Create Account</button><br>
+       <p id="lgn_old_acct">Already have an account? <a href="#" id="login">Log in</a></p>
+      </div>
+      <script src="main.js"></script>
 </body>
 </html>
